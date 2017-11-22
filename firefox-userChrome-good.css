@@ -1,0 +1,20 @@
+:root:-moz-lwtheme {
+
+/*no stripes in main bar*/
+--toolbar-bgcolor: rgba(255,255,255,0) !important;
+/*active tab green bar*/
+--tab-line-color: rgb(0,190,15) !important;
+
+}
+
+/* active tab - green font and icons*/
+.tabbrowser-tab[selected=true] {
+color: rgb(0,190,15)!important;
+
+}
+/*inactive tab */
+.tabbrowser-tab {
+background-color: #9c9c9c33!important;
+}
+Rated 5 out of 5
+by Anonymous user fe5979, 3
