@@ -1,0 +1,176 @@
+[Toplevel top]
+orientation=top
+expand=true
+size=28
+
+[Toplevel toplevel-0]
+orientation=bottom
+expand=true
+size=24
+
+[Object briskmenu]
+locked=true
+position=0
+panel-right-stick=false
+toplevel-id=top
+applet-iid=BriskMenuFactory::BriskMenu
+object-type=applet
+
+[Object menu-bar]
+locked=true
+position=10
+panel-right-stick=false
+toplevel-id=top
+applet-iid=
+object-type=menu-bar
+
+[Object notificationarea]
+locked=true
+position=20
+panel-right-stick=true
+toplevel-id=top
+applet-iid=NotificationAreaAppletFactory::NotificationArea
+object-type=applet
+
+[Object indicatorappletcomplete]
+locked=true
+position=10
+panel-right-stick=true
+toplevel-id=top
+applet-iid=IndicatorAppletCompleteFactory::IndicatorAppletComplete
+object-type=applet
+
+[Object clockapplet]
+locked=true
+position=0
+panel-right-stick=true
+toplevel-id=top
+applet-iid=ClockAppletFactory::ClockApplet
+object-type=applet
+
+[Object windowlistapplet]
+locked=true
+position=22
+panel-right-stick=false
+toplevel-id=toplevel-0
+applet-iid=WnckletFactory::WindowListApplet
+object-type=applet
+
+[Object workspaceswitcherapplet]
+locked=true
+position=344
+panel-right-stick=true
+toplevel-id=toplevel-0
+applet-iid=WnckletFactory::WorkspaceSwitcherApplet
+object-type=applet
+
+[Object force-quit]
+action-type=force-quit
+locked=true
+position=48
+panel-right-stick=true
+toplevel-id=toplevel-0
+object-type=action
+
+[Object brightnessapplet]
+locked=false
+position=683
+panel-right-stick=false
+toplevel-id=top
+applet-iid=BrightnessAppletFactory::BrightnessApplet
+object-type=applet
+
+[Object multiloadapplet]
+locked=true
+position=174
+panel-right-stick=true
+toplevel-id=toplevel-0
+applet-iid=MultiLoadAppletFactory::MultiLoadApplet
+object-type=applet
+
+[Object trashapplet]
+locked=true
+position=24
+panel-right-stick=true
+toplevel-id=toplevel-0
+applet-iid=TrashAppletFactory::TrashApplet
+object-type=applet
+
+[Object launcher]
+locked=false
+position=203
+launcher-location=/home/pizzadude/.local/share/applications/vivaldi-stable.desktop
+panel-right-stick=false
+toplevel-id=top
+object-type=launcher
+menu-path=applications:/
+
+[Object launcher]
+locked=false
+position=231
+launcher-location=/home/pizzadude/.local/share/applications/nightly.desktop
+panel-right-stick=false
+toplevel-id=top
+object-type=launcher
+menu-path=applications:/
+
+[Object launcher]
+locked=false
+position=259
+launcher-location=/usr/share/applications/xed.desktop
+panel-right-stick=false
+toplevel-id=top
+object-type=launcher
+menu-path=applications:/
+
+[Object launcher]
+locked=false
+position=287
+launcher-location=/usr/share/applications/com.gexperts.Tilix.desktop
+panel-right-stick=false
+toplevel-id=top
+object-type=launcher
+menu-path=applications:/
+
+[Object launcher]
+locked=false
+position=315
+launcher-location=/home/pizzadude/.local/share/applications/org.baedert.corebird.desktop
+panel-right-stick=false
+toplevel-id=top
+object-type=launcher
+menu-path=applications:/
+
+[Object launcher]
+locked=false
+position=343
+launcher-location=/home/pizzadude/.local/share/applications/sayonara.desktop
+panel-right-stick=false
+toplevel-id=top
+object-type=launcher
+menu-path=applications:/
+
+[Object drawer]
+use-custom-icon=false
+position=371
+panel-right-stick=false
+attached-toplevel-id=toplevel-1
+object-type=drawer
+
+[Object showdesktopapplet]
+locked=true
+position=0
+panel-right-stick=false
+toplevel-id=toplevel-0
+applet-iid=WnckletFactory::ShowDesktopApplet
+object-type=applet
+
+[Object launcher]
+locked=false
+position=399
+launcher-location=/usr/share/applications/caja-browser.desktop
+panel-right-stick=false
+toplevel-id=top
+object-type=launcher
+menu-path=applications:/
+

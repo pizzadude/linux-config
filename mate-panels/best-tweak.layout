@@ -1,0 +1,137 @@
+[Toplevel top]
+orientation=top
+expand=true
+size=28
+
+[Toplevel bottom]
+orientation=bottom
+expand=true
+size=24
+
+[Toplevel toplevel-1]
+orientation=left
+expand=true
+size=28
+
+[Object briskmenu]
+locked=false
+position=0
+panel-right-stick=false
+toplevel-id=toplevel-1
+applet-iid=BriskMenuFactory::BriskMenu
+object-type=applet
+
+[Object appmenuapplet]
+locked=true
+position=10
+panel-right-stick=false
+toplevel-id=top
+applet-iid=AppmenuAppletFactory::AppmenuApplet
+object-type=applet
+
+[Object notificationarea]
+locked=true
+position=386
+panel-right-stick=true
+toplevel-id=toplevel-1
+applet-iid=NotificationAreaAppletFactory::NotificationArea
+object-type=applet
+
+[Object indicatorappletcomplete]
+locked=true
+position=327
+panel-right-stick=true
+toplevel-id=toplevel-1
+applet-iid=IndicatorAppletCompleteFactory::IndicatorAppletComplete
+object-type=applet
+
+[Object clockapplet]
+locked=true
+position=171
+panel-right-stick=true
+toplevel-id=top
+applet-iid=ClockAppletFactory::ClockApplet
+object-type=applet
+
+[Object showdesktopapplet]
+locked=true
+position=0
+panel-right-stick=false
+toplevel-id=bottom
+applet-iid=WnckletFactory::ShowDesktopApplet
+object-type=applet
+
+[Object windowlistapplet]
+locked=true
+position=20
+panel-right-stick=false
+toplevel-id=bottom
+applet-iid=WnckletFactory::WindowListApplet
+object-type=applet
+
+[Object workspaceswitcherapplet]
+locked=true
+position=10
+panel-right-stick=true
+toplevel-id=bottom
+applet-iid=WnckletFactory::WorkspaceSwitcherApplet
+object-type=applet
+
+[Object trashapplet]
+locked=true
+position=0
+panel-right-stick=true
+toplevel-id=bottom
+applet-iid=TrashAppletFactory::TrashApplet
+object-type=applet
+
+[Object launcher]
+locked=true
+position=59
+launcher-location=/usr/share/applications/caja-browser.desktop
+panel-right-stick=false
+toplevel-id=toplevel-1
+object-type=launcher
+menu-path=applications:/
+
+[Object multiloadapplet]
+locked=true
+position=297
+panel-right-stick=true
+toplevel-id=top
+applet-iid=MultiLoadAppletFactory::MultiLoadApplet
+object-type=applet
+
+[Object brightnessapplet]
+locked=true
+position=325
+panel-right-stick=true
+toplevel-id=top
+applet-iid=BrightnessAppletFactory::BrightnessApplet
+object-type=applet
+
+[Object force-quit]
+action-type=force-quit
+locked=true
+position=353
+panel-right-stick=true
+toplevel-id=top
+object-type=action
+
+[Object shutdown]
+action-type=shutdown
+locked=true
+position=28
+panel-right-stick=true
+toplevel-id=top
+object-type=action
+
+[Object launcher]
+locked=true
+position=31
+launcher-location=/home/pizzadude/.local/share/applications/vivaldi-stable.desktop
+panel-right-stick=false
+toplevel-id=toplevel-1
+object-type=launcher
+menu-path=applications:/
+

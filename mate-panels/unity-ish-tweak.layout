@@ -1,0 +1,129 @@
+[Toplevel top]
+orientation=top
+expand=true
+size=28
+
+[Toplevel bottom]
+orientation=bottom
+expand=true
+size=24
+
+[Toplevel toplevel-0]
+orientation=left
+expand=true
+size=28
+
+[Object briskmenu]
+locked=true
+position=3
+panel-right-stick=false
+toplevel-id=toplevel-0
+applet-iid=BriskMenuFactory::BriskMenu
+object-type=applet
+
+[Object appmenuapplet]
+locked=true
+position=0
+panel-right-stick=false
+toplevel-id=top
+applet-iid=AppmenuAppletFactory::AppmenuApplet
+object-type=applet
+
+[Object notificationarea]
+locked=false
+position=233
+panel-right-stick=false
+toplevel-id=toplevel-0
+applet-iid=NotificationAreaAppletFactory::NotificationArea
+object-type=applet
+
+[Object indicatorappletcomplete]
+locked=true
+position=435
+panel-right-stick=true
+toplevel-id=toplevel-0
+applet-iid=IndicatorAppletCompleteFactory::IndicatorAppletComplete
+object-type=applet
+
+[Object clockapplet]
+locked=false
+position=135
+panel-right-stick=true
+toplevel-id=top
+applet-iid=ClockAppletFactory::ClockApplet
+object-type=applet
+
+[Object showdesktopapplet]
+locked=true
+position=0
+panel-right-stick=false
+toplevel-id=bottom
+applet-iid=WnckletFactory::ShowDesktopApplet
+object-type=applet
+
+[Object windowlistapplet]
+locked=true
+position=20
+panel-right-stick=false
+toplevel-id=bottom
+applet-iid=WnckletFactory::WindowListApplet
+object-type=applet
+
+[Object workspaceswitcherapplet]
+locked=true
+position=63
+panel-right-stick=true
+toplevel-id=bottom
+applet-iid=WnckletFactory::WorkspaceSwitcherApplet
+object-type=applet
+
+[Object trashapplet]
+locked=true
+position=24
+panel-right-stick=true
+toplevel-id=bottom
+applet-iid=TrashAppletFactory::TrashApplet
+object-type=applet
+
+[Object force-quit]
+action-type=force-quit
+locked=false
+position=1071
+panel-right-stick=false
+toplevel-id=top
+object-type=action
+
+[Object brightnessapplet]
+locked=false
+position=1043
+panel-right-stick=false
+toplevel-id=top
+applet-iid=BrightnessAppletFactory::BrightnessApplet
+object-type=applet
+
+[Object launcher]
+locked=true
+position=38
+launcher-location=/usr/share/applications/caja-browser.desktop
+panel-right-stick=false
+toplevel-id=toplevel-0
+object-type=launcher
+menu-path=applications:/
+
+[Object launcher]
+locked=true
+position=66
+launcher-location=/home/pizzadude/.local/share/applications/firefox.desktop
+panel-right-stick=false
+toplevel-id=toplevel-0
+object-type=launcher
+menu-path=applications:/
+
+[Object multiloadapplet]
+locked=false
+position=261
+panel-right-stick=true
+toplevel-id=top
+applet-iid=MultiLoadAppletFactory::MultiLoadApplet
+object-type=applet
+

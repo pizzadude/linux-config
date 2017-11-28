@@ -1,0 +1,221 @@
+[Toplevel top]
+orientation=top
+expand=true
+size=24
+
+[Toplevel bottom]
+orientation=bottom
+expand=true
+size=24
+
+[Object notificationarea]
+locked=true
+position=30
+panel-right-stick=true
+toplevel-id=top
+applet-iid=NotificationAreaAppletFactory::NotificationArea
+object-type=applet
+
+[Object indicatorappletcomplete]
+locked=true
+position=20
+panel-right-stick=true
+toplevel-id=top
+applet-iid=IndicatorAppletCompleteFactory::IndicatorAppletComplete
+object-type=applet
+
+[Object clockapplet]
+locked=true
+position=10
+panel-right-stick=true
+toplevel-id=top
+applet-iid=ClockAppletFactory::ClockApplet
+object-type=applet
+
+[Object shutdown]
+action-type=shutdown
+locked=true
+position=0
+panel-right-stick=true
+toplevel-id=top
+object-type=action
+
+[Object showdesktopapplet]
+locked=true
+position=0
+panel-right-stick=false
+toplevel-id=bottom
+applet-iid=WnckletFactory::ShowDesktopApplet
+object-type=applet
+
+[Object windowlistapplet]
+locked=true
+position=20
+panel-right-stick=false
+toplevel-id=bottom
+applet-iid=WnckletFactory::WindowListApplet
+object-type=applet
+
+[Object workspaceswitcherapplet]
+locked=false
+position=1279
+panel-right-stick=false
+toplevel-id=bottom
+applet-iid=WnckletFactory::WorkspaceSwitcherApplet
+object-type=applet
+
+[Object trashapplet]
+locked=true
+position=0
+panel-right-stick=true
+toplevel-id=bottom
+applet-iid=TrashAppletFactory::TrashApplet
+object-type=applet
+
+[Object launcher]
+locked=false
+position=111
+launcher-location=vivaldi-stable-2.desktop
+panel-right-stick=false
+toplevel-id=top
+object-type=launcher
+menu-path=applications:/
+
+[Object launcher]
+locked=false
+position=135
+launcher-location=/usr/share/applications/com.gexperts.Tilix.desktop
+panel-right-stick=false
+toplevel-id=top
+object-type=launcher
+menu-path=applications:/
+
+[Object launcher]
+locked=false
+position=159
+launcher-location=/usr/share/applications/xed.desktop
+panel-right-stick=false
+toplevel-id=top
+object-type=launcher
+menu-path=applications:/
+
+[Object launcher]
+locked=false
+position=183
+launcher-location=/usr/share/applications/pavucontrol.desktop
+panel-right-stick=false
+toplevel-id=top
+object-type=launcher
+menu-path=applications:/
+
+[Object launcher]
+locked=false
+position=232
+launcher-location=/usr/share/applications/org.baedert.corebird.desktop
+panel-right-stick=false
+toplevel-id=top
+object-type=launcher
+menu-path=applications:/
+
+[Object multiloadapplet]
+locked=false
+position=1153
+panel-right-stick=false
+toplevel-id=bottom
+applet-iid=MultiLoadAppletFactory::MultiLoadApplet
+object-type=applet
+
+[Object launcher]
+locked=false
+position=256
+launcher-location=clementine-3.desktop
+panel-right-stick=false
+toplevel-id=top
+object-type=launcher
+menu-path=applications:/
+
+[Object brightnessapplet]
+locked=false
+position=708
+panel-right-stick=false
+toplevel-id=top
+applet-iid=BrightnessAppletFactory::BrightnessApplet
+object-type=applet
+
+[Object launcher]
+locked=false
+position=280
+launcher-location=rhythmbox-1.desktop
+panel-right-stick=false
+toplevel-id=top
+object-type=launcher
+menu-path=applications:/
+
+[Object mateweatherapplet]
+locked=true
+position=349
+panel-right-stick=false
+toplevel-id=top
+applet-iid=MateWeatherAppletFactory::MateWeatherApplet
+object-type=applet
+
+[Object force-quit]
+action-type=force-quit
+locked=false
+position=1129
+panel-right-stick=false
+toplevel-id=bottom
+object-type=action
+
+[Object briskmenu]
+locked=true
+position=0
+panel-right-stick=false
+toplevel-id=top
+applet-iid=BriskMenuFactory::BriskMenu
+object-type=applet
+
+[Object launcher]
+locked=false
+position=89
+launcher-location=palemoon-2.desktop
+panel-right-stick=false
+toplevel-id=top
+object-type=launcher
+menu-path=applications:/
+
+[Object lock]
+action-type=lock
+locked=false
+position=1318
+panel-right-stick=false
+toplevel-id=bottom
+object-type=action
+
+[Object launcher]
+locked=false
+position=208
+launcher-location=pidgin-3.desktop
+panel-right-stick=false
+toplevel-id=top
+object-type=launcher
+menu-path=applications:/
+
+[Object launcher]
+locked=false
+position=86
+launcher-location=/home/pizzadude/.local/share/applications/nightly.desktop
+panel-right-stick=false
+toplevel-id=top
+object-type=launcher
+menu-path=applications:/
+
+[Object launcher]
+locked=false
+position=304
+launcher-location=/usr/share/applications/caja-browser.desktop
+panel-right-stick=false
+toplevel-id=top
+object-type=launcher
+menu-path=applications:/
+
