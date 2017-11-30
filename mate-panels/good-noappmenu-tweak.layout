@@ -1,0 +1,197 @@
+[Toplevel top]
+orientation=top
+expand=true
+size=28
+
+[Toplevel bottom]
+orientation=bottom
+expand=true
+size=24
+
+[Object notificationarea]
+locked=false
+position=809
+panel-right-stick=true
+toplevel-id=top
+applet-iid=NotificationAreaAppletFactory::NotificationArea
+object-type=applet
+
+[Object indicatorappletcomplete]
+locked=false
+position=775
+panel-right-stick=true
+toplevel-id=top
+applet-iid=IndicatorAppletCompleteFactory::IndicatorAppletComplete
+object-type=applet
+
+[Object clockapplet]
+locked=false
+position=142
+panel-right-stick=true
+toplevel-id=top
+applet-iid=ClockAppletFactory::ClockApplet
+object-type=applet
+
+[Object showdesktopapplet]
+locked=true
+position=0
+panel-right-stick=false
+toplevel-id=bottom
+applet-iid=WnckletFactory::ShowDesktopApplet
+object-type=applet
+
+[Object windowlistapplet]
+locked=true
+position=20
+panel-right-stick=false
+toplevel-id=bottom
+applet-iid=WnckletFactory::WindowListApplet
+object-type=applet
+
+[Object workspaceswitcherapplet]
+locked=true
+position=87
+panel-right-stick=true
+toplevel-id=bottom
+applet-iid=WnckletFactory::WorkspaceSwitcherApplet
+object-type=applet
+
+[Object trashapplet]
+locked=true
+position=24
+panel-right-stick=true
+toplevel-id=bottom
+applet-iid=TrashAppletFactory::TrashApplet
+object-type=applet
+
+[Object brightnessapplet]
+locked=false
+position=837
+panel-right-stick=true
+toplevel-id=top
+applet-iid=BrightnessAppletFactory::BrightnessApplet
+object-type=applet
+
+[Object launcher]
+locked=false
+position=320
+launcher-location=/usr/share/applications/caja-browser.desktop
+panel-right-stick=false
+toplevel-id=top
+object-type=launcher
+menu-path=applications:/
+
+[Object launcher]
+locked=false
+position=40
+launcher-location=/home/pizzadude/.local/share/applications/firefox.desktop
+panel-right-stick=false
+toplevel-id=top
+object-type=launcher
+menu-path=applications:/
+
+[Object multiloadapplet]
+locked=false
+position=1145
+panel-right-stick=false
+toplevel-id=bottom
+applet-iid=MultiLoadAppletFactory::MultiLoadApplet
+object-type=applet
+
+[Object lock]
+action-type=lock
+locked=false
+position=48
+panel-right-stick=true
+toplevel-id=bottom
+object-type=action
+
+[Object briskmenu]
+locked=false
+position=0
+panel-right-stick=false
+toplevel-id=top
+applet-iid=BriskMenuFactory::BriskMenu
+object-type=applet
+
+[Object launcher]
+locked=false
+position=152
+launcher-location=/home/pizzadude/.local/share/applications/pidgin.desktop
+panel-right-stick=false
+toplevel-id=top
+object-type=launcher
+menu-path=applications:/
+
+[Object launcher]
+locked=false
+position=68
+launcher-location=/usr/share/applications/xed.desktop
+panel-right-stick=false
+toplevel-id=top
+object-type=launcher
+menu-path=applications:/
+
+[Object launcher]
+locked=false
+position=96
+launcher-location=/usr/share/applications/com.gexperts.Tilix.desktop
+panel-right-stick=false
+toplevel-id=top
+object-type=launcher
+menu-path=applications:/
+
+[Object launcher]
+locked=false
+position=124
+launcher-location=/home/pizzadude/.local/share/applications/org.baedert.corebird.desktop
+panel-right-stick=false
+toplevel-id=top
+object-type=launcher
+menu-path=applications:/
+
+[Object launcher]
+locked=false
+position=264
+launcher-location=/home/pizzadude/.local/share/applications/sayonara.desktop
+panel-right-stick=false
+toplevel-id=top
+object-type=launcher
+menu-path=applications:/
+
+[Object launcher]
+locked=false
+position=180
+launcher-location=/usr/share/applications/discord.desktop
+panel-right-stick=false
+toplevel-id=top
+object-type=launcher
+menu-path=applications:/
+
+[Object launcher]
+locked=false
+position=208
+launcher-location=/var/lib/snapd/desktop/applications/yakyak_yakyak.desktop
+panel-right-stick=false
+toplevel-id=top
+object-type=launcher
+menu-path=applications:/
+
+[Object launcher]
+locked=false
+position=292
+launcher-location=/usr/share/applications/pavucontrol.desktop
+panel-right-stick=false
+toplevel-id=top
+object-type=launcher
+menu-path=applications:/
+
+[Object launcher]
+locked=false
+position=236
+launcher-location=/var/lib/snapd/desktop/applications/telegram-sergiusens_telegram.desktop
+panel-right-stick=false
+toplevel-id=top
+object-type=launcher
+menu-path=applications:/
+
