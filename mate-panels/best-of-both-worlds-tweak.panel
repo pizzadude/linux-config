@@ -50,7 +50,7 @@ type='color'
 locked=true
 launcher-location='/home/pizzadude/.local/share/applications/firefox.desktop'
 toplevel-id='toplevel-0'
-position=36
+position=77
 object-type='launcher'
 panel-right-stick=false
 
@@ -58,7 +58,7 @@ panel-right-stick=false
 applet-iid='WnckletFactory::WorkspaceSwitcherApplet'
 locked=true
 toplevel-id='bottom'
-position=87
+position=63
 object-type='applet'
 panel-right-stick=true
 
@@ -68,15 +68,25 @@ num-rows=2
 
 [objects/object-5]
 applet-iid='NetspeedAppletFactory::NetspeedApplet'
-locked=false
+locked=true
 toplevel-id='top'
-position=1
+position=860
 object-type='applet'
-panel-right-stick=true
+panel-right-stick=false
+
+[objects/object-5/prefs]
+show-sum=false
+show-bits=false
+device='tun0'
+auto-change-device=true
+short-unit=false
+change-icon=true
+show-icon=false
+show-quality-icon=true
 
 [objects/object-6]
 applet-iid='SensorsAppletFactory::SensorsApplet'
-locked=false
+locked=true
 toplevel-id='top'
 position=264
 object-type='applet'
@@ -446,7 +456,7 @@ interface='ibm-acpi'
 applet-iid='ClockAppletFactory::ClockApplet'
 locked=true
 toplevel-id='top'
-position=147
+position=135
 object-type='applet'
 panel-right-stick=true
 
@@ -458,14 +468,15 @@ custom-format=''
 applet-iid='IndicatorAppletCompleteFactory::IndicatorAppletComplete'
 locked=false
 toplevel-id='toplevel-0'
-position=1
+position=434
 object-type='applet'
 panel-right-stick=true
 
 [objects/object-7]
 applet-iid='MateWeatherAppletFactory::MateWeatherApplet'
+locked=true
 toplevel-id='top'
-position=337
+position=339
 object-type='applet'
 panel-right-stick=false
 
@@ -481,11 +492,18 @@ location2='------'
 location3='tyx'
 
 [objects/object-8]
-locked=false
+locked=true
 toplevel-id='top'
 position=0
 object-type='menu-bar'
 panel-right-stick=false
+
+[objects/object-9]
+toplevel-id='top'
+position=1016
+
+[objects/appmenuapplet]
+toplevel-id='top'
 
 [objects/window-list]
 applet-iid='WnckletFactory::WindowListApplet'
@@ -498,7 +516,7 @@ object-type='applet'
 applet-iid='NotificationAreaAppletFactory::NotificationArea'
 locked=false
 toplevel-id='toplevel-0'
-position=173
+position=188
 object-type='applet'
 panel-right-stick=false
 
@@ -506,7 +524,7 @@ panel-right-stick=false
 applet-iid='BriskMenuFactory::BriskMenu'
 locked=true
 toplevel-id='toplevel-0'
-position=0
+position=3
 object-type='applet'
 panel-right-stick=false
 
@@ -519,11 +537,11 @@ object-type='applet'
 
 [objects/object-0]
 applet-iid='MultiLoadAppletFactory::MultiLoadApplet'
-locked=false
+locked=true
 toplevel-id='top'
-position=974
+position=303
 object-type='applet'
-panel-right-stick=false
+panel-right-stick=true
 
 [objects/object-0/prefs]
 view-memload=true
@@ -533,26 +551,26 @@ view-diskload=true
 view-swapload=false
 
 [objects/object-1]
-locked=false
+locked=true
 toplevel-id='top'
 action-type='force-quit'
-position=172
+position=1003
 object-type='action'
-panel-right-stick=true
+panel-right-stick=false
 
 [objects/object-2]
 applet-iid='BrightnessAppletFactory::BrightnessApplet'
 locked=true
 toplevel-id='top'
-position=196
+position=1030
 object-type='applet'
-panel-right-stick=true
+panel-right-stick=false
 
 [objects/object-3]
 locked=true
 launcher-location='/usr/share/applications/caja-browser.desktop'
 toplevel-id='toplevel-0'
-position=74
+position=39
 object-type='launcher'
 panel-right-stick=false
 

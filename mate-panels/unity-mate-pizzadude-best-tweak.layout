@@ -11,11 +11,11 @@ size=24
 [Toplevel toplevel-0]
 orientation=left
 expand=true
-size=28
+size=38
 
 [Object briskmenu]
 locked=true
-position=3
+position=0
 panel-right-stick=false
 toplevel-id=toplevel-0
 applet-iid=BriskMenuFactory::BriskMenu
@@ -31,7 +31,7 @@ object-type=applet
 
 [Object notificationarea]
 locked=false
-position=233
+position=174
 panel-right-stick=false
 toplevel-id=toplevel-0
 applet-iid=NotificationAreaAppletFactory::NotificationArea
@@ -46,8 +46,8 @@ applet-iid=IndicatorAppletCompleteFactory::IndicatorAppletComplete
 object-type=applet
 
 [Object clockapplet]
-locked=false
-position=135
+locked=true
+position=10
 panel-right-stick=true
 toplevel-id=top
 applet-iid=ClockAppletFactory::ClockApplet
@@ -70,8 +70,8 @@ applet-iid=WnckletFactory::WindowListApplet
 object-type=applet
 
 [Object workspaceswitcherapplet]
-locked=true
-position=63
+locked=false
+position=10
 panel-right-stick=true
 toplevel-id=bottom
 applet-iid=WnckletFactory::WorkspaceSwitcherApplet
@@ -87,23 +87,39 @@ object-type=applet
 
 [Object force-quit]
 action-type=force-quit
-locked=false
-position=1071
+locked=true
+position=1055
 panel-right-stick=false
 toplevel-id=top
 object-type=action
 
 [Object brightnessapplet]
-locked=false
-position=1043
+locked=true
+position=1027
 panel-right-stick=false
 toplevel-id=top
 applet-iid=BrightnessAppletFactory::BrightnessApplet
 object-type=applet
 
+[Object multiloadapplet]
+locked=true
+position=1117
+panel-right-stick=false
+toplevel-id=top
+applet-iid=MultiLoadAppletFactory::MultiLoadApplet
+object-type=applet
+
+[Object mateweatherapplet]
+locked=false
+position=1255
+panel-right-stick=false
+toplevel-id=bottom
+applet-iid=MateWeatherAppletFactory::MateWeatherApplet
+object-type=applet
+
 [Object launcher]
 locked=true
-position=38
+position=28
 launcher-location=/usr/share/applications/caja-browser.desktop
 panel-right-stick=false
 toplevel-id=toplevel-0
@@ -112,18 +128,10 @@ menu-path=applications:/
 
 [Object launcher]
 locked=true
-position=66
+position=62
 launcher-location=/home/pizzadude/.local/share/applications/firefox.desktop
 panel-right-stick=false
 toplevel-id=toplevel-0
 object-type=launcher
 menu-path=applications:/
-
-[Object multiloadapplet]
-locked=false
-position=261
-panel-right-stick=true
-toplevel-id=top
-applet-iid=MultiLoadAppletFactory::MultiLoadApplet
-object-type=applet
 

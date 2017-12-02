@@ -15,7 +15,7 @@ size=38
 
 [Object briskmenu]
 locked=true
-position=0
+position=3
 panel-right-stick=false
 toplevel-id=toplevel-0
 applet-iid=BriskMenuFactory::BriskMenu
@@ -23,7 +23,7 @@ object-type=applet
 
 [Object notificationarea]
 locked=false
-position=173
+position=188
 panel-right-stick=false
 toplevel-id=toplevel-0
 applet-iid=NotificationAreaAppletFactory::NotificationArea
@@ -31,7 +31,7 @@ object-type=applet
 
 [Object indicatorappletcomplete]
 locked=false
-position=1
+position=434
 panel-right-stick=true
 toplevel-id=toplevel-0
 applet-iid=IndicatorAppletCompleteFactory::IndicatorAppletComplete
@@ -39,7 +39,7 @@ object-type=applet
 
 [Object clockapplet]
 locked=true
-position=147
+position=135
 panel-right-stick=true
 toplevel-id=top
 applet-iid=ClockAppletFactory::ClockApplet
@@ -63,7 +63,7 @@ object-type=applet
 
 [Object workspaceswitcherapplet]
 locked=true
-position=87
+position=63
 panel-right-stick=true
 toplevel-id=bottom
 applet-iid=WnckletFactory::WorkspaceSwitcherApplet
@@ -79,23 +79,23 @@ object-type=applet
 
 [Object force-quit]
 action-type=force-quit
-locked=false
-position=172
-panel-right-stick=true
+locked=true
+position=1003
+panel-right-stick=false
 toplevel-id=top
 object-type=action
 
 [Object brightnessapplet]
 locked=true
-position=196
-panel-right-stick=true
+position=1030
+panel-right-stick=false
 toplevel-id=top
 applet-iid=BrightnessAppletFactory::BrightnessApplet
 object-type=applet
 
 [Object launcher]
 locked=true
-position=74
+position=39
 launcher-location=/usr/share/applications/caja-browser.desktop
 panel-right-stick=false
 toplevel-id=toplevel-0
@@ -104,7 +104,7 @@ menu-path=applications:/
 
 [Object launcher]
 locked=true
-position=36
+position=77
 launcher-location=/home/pizzadude/.local/share/applications/firefox.desktop
 panel-right-stick=false
 toplevel-id=toplevel-0
@@ -112,23 +112,23 @@ object-type=launcher
 menu-path=applications:/
 
 [Object multiloadapplet]
-locked=false
-position=974
-panel-right-stick=false
+locked=true
+position=303
+panel-right-stick=true
 toplevel-id=top
 applet-iid=MultiLoadAppletFactory::MultiLoadApplet
 object-type=applet
 
 [Object netspeedapplet]
-locked=false
-position=1
-panel-right-stick=true
+locked=true
+position=860
+panel-right-stick=false
 toplevel-id=top
 applet-iid=NetspeedAppletFactory::NetspeedApplet
 object-type=applet
 
 [Object sensorsapplet]
-locked=false
+locked=true
 position=264
 panel-right-stick=false
 toplevel-id=top
@@ -136,7 +136,7 @@ applet-iid=SensorsAppletFactory::SensorsApplet
 object-type=applet
 
 [Object menu-bar]
-locked=false
+locked=true
 position=0
 panel-right-stick=false
 toplevel-id=top
@@ -144,8 +144,8 @@ applet-iid=
 object-type=menu-bar
 
 [Object mateweatherapplet]
-locked=false
-position=337
+locked=true
+position=339
 panel-right-stick=false
 toplevel-id=top
 applet-iid=MateWeatherAppletFactory::MateWeatherApplet
